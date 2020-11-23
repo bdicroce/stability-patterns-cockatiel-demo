@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES5",
+        "moduleResolution": "Node",
+        "lib": ["DOM", "ES5", "ES6", "ES2015", "ES2015.Promise", "ES2017", "ES2018", "ESNext.AsyncIterable"]
+    }
+}
