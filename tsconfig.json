@@ -1,8 +1,21 @@
 {
-    "compilerOptions": {
-        "module": "CommonJS",
-        "target": "ES5",
-        "moduleResolution": "Node",
-        "lib": ["DOM", "ES5", "ES6", "ES2015", "ES2015.Promise", "ES2017", "ES2018", "ESNext.AsyncIterable"]
-    }
+   "compilerOptions":{ 
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "sourceMap": false,
+    "module": "commonjs",
+    "target": "es6",
+    "moduleResolution": "Node",
+    "outDir": "dist",
+    "lib": ["es6", "dom", "es2017"]
+   },
+   "include":[ 
+      "src/**/*"
+   ],
+   "exclude":[ 
+      "node_modules"
+   ],
+   "compileOnSave":false
 }
